@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "TONKA BRAIN TEMPLATE: a private, agent-readable personal brain repository for Claude Code, Codex and other coding agents.",
+  "author": "Leo (https://github.com/leocreated)",
   "license": "MIT",
   "type": "module",
   "engines": {

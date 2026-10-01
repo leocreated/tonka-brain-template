@@ -1,5 +1,7 @@
 # TONKA BRAIN TEMPLATE
 
+Created by [Leo (@leocreated)](https://github.com/leocreated).
+
 A template for a private "brain" repository: small Markdown records about how you work, what you are working on and what you have decided, organized so coding agents such as Claude Code and Codex can find the right context quickly and add to it safely.
 
 - **Private by design.** Setup proves (or records your attestation) that every place this clone pushes to is private before any personal answer is written to a tracked file.

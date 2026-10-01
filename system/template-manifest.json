@@ -46,7 +46,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "829408ff98e31e9b224799d9f65998ebf42b6f4489e7e03c5a40fbbb2a1fd51d"
+      "sha256": "5ca23515eebcdeb0209ae880a9b4d60bff31c1fb64b3fda16f1b59f042523b93"
     },
     {
       "path": "archives/README.md",
@@ -74,7 +74,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "4e8d0f01f9f8b85881c76361fd4a8a8d4234626b13cb77aff0cda6eb07dd5f00"
+      "sha256": "8944d39d7ce709ca7dcf8a9636509c12bd1a4fd9ebbdc357a90cece9ed554e7f"
     },
     {
       "path": "papercuts/README.md",
