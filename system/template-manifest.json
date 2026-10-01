@@ -210,7 +210,7 @@
     },
     {
       "path": "system/lib/release.mjs",
-      "sha256": "3d3776718562882f06f67b0fe9dfd125967a395c2ef26520a81c1761cb1fc493"
+      "sha256": "b7967619cfeb07ecc3301698400ba0d49dc0945e1f702e5066285e900a65eaa0"
     },
     {
       "path": "system/lib/secrets.mjs",
@@ -226,7 +226,7 @@
     },
     {
       "path": "system/lib/util.mjs",
-      "sha256": "866719c9be8882679413462f85ead084123fa043d2afd9c21ef749fe7a3383ef"
+      "sha256": "6e352108eedd0008a22e90b249c391af5830935c30e4724542d43d14dc942fea"
     },
     {
       "path": "system/lib/visibility.mjs",
@@ -317,6 +317,10 @@
       "sha256": "b0f21ecb386c70fa4d8d90a2833b8d6d7143e6a45ce1c1ab0122696d52e07dbd"
     },
     {
+      "path": "system/tests/release-confinement.test.mjs",
+      "sha256": "1226a945b9c1b766b29148632b3480187b99c4bff5c55ecbcb74b8edeee83f0d"
+    },
+    {
       "path": "system/tests/release.test.mjs",
       "sha256": "ecbb497487df691950b6092be2fe31fc2ec1a6ec00c92c89591670980f9729e3"
     },
@@ -335,6 +339,10 @@
     {
       "path": "system/tests/update.test.mjs",
       "sha256": "d90cef017c4c1dceb7c7c5f7854e65137e014589708a597c022690f961756222"
+    },
+    {
+      "path": "system/tests/util.test.mjs",
+      "sha256": "d264d78f65eebf0d6cd949825eeb9cb67088ae4ed9f57baa1169f00110c85a0f"
     },
     {
       "path": "system/tests/visibility.test.mjs",

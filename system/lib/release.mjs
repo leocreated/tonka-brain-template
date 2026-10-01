@@ -97,10 +97,37 @@ export function releaseCheck(dir, { denylist = null } = {}) {
   return { ok: findings.length === 0, findings, files: res.files.length };
 }
 
+// The real location of p with every link and junction resolved, so two names
+// for one folder (macOS /var and /private/var, say) compare equal. A missing
+// tail is kept and appended to the real location of its nearest existing
+// parent. A broken link is refused rather than guessed at.
+function realLocation(p) {
+  const tail = [];
+  let cur = path.resolve(p);
+  for (;;) {
+    try {
+      return path.join(fs.realpathSync.native(cur), ...tail);
+    } catch (err) {
+      if (err.code !== 'ENOENT' && err.code !== 'ENOTDIR') throw err;
+      let present = true;
+      try {
+        fs.lstatSync(cur);
+      } catch {
+        present = false;
+      }
+      if (present) throw new Error(`cannot resolve ${cur}: it is a broken link`);
+      const up = path.dirname(cur);
+      if (up === cur) throw err;
+      tail.unshift(path.basename(cur));
+      cur = up;
+    }
+  }
+}
+
 // Write the committed HEAD tree (not the working tree) into an empty folder.
 export function releaseExport(root, outDir) {
-  const out = path.resolve(outDir);
-  if (isInside(path.resolve(root), out)) throw new Error('export folder must be outside this repository');
+  const out = realLocation(outDir);
+  if (isInside(realLocation(root), out)) throw new Error('export folder must be outside this repository');
   if (fs.existsSync(out) && fs.readdirSync(out).length) throw new Error('export folder must be empty or not exist');
   const r = git(root, ['ls-tree', '-r', '-z', '--full-tree', 'HEAD']);
   if (!r.ok) throw new Error(`git ls-tree failed: ${r.stderr.trim()}`);

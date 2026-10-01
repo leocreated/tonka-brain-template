@@ -114,10 +114,11 @@ export function walk(rootAbs, relDir = '', opts = {}) {
   return out;
 }
 
-// True when `child` resolves inside `parent` (both absolute).
+// True when `child` resolves inside `parent` (both absolute). Only a whole
+// '..' first segment leads out; a child named '..export' is still inside.
 export function isInside(parent, child) {
   const rel = path.relative(parent, child);
-  return rel === '' || (!rel.startsWith('..') && !path.isAbsolute(rel));
+  return rel.split(path.sep)[0] !== '..' && !path.isAbsolute(rel);
 }
 
 // Check that no existing segment between rootAbs and rel is a symlink.
