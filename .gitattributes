@@ -1,0 +1,2 @@
+* text=auto eol=lf
+system/hooks/pre-commit text eol=lf

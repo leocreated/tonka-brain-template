@@ -1,0 +1,8 @@
+#!/bin/sh
+# TONKA BRAIN TEMPLATE pre-commit hook.
+# Enabled per clone by "node system/bin/brain.mjs hooks install"; cloning does not enable it.
+if ! command -v node >/dev/null 2>&1; then
+  echo "TONKA: node was not found on PATH, so the privacy guard could not run. Commit blocked." >&2
+  exit 1
+fi
+exec node "$(git rev-parse --show-toplevel)/system/bin/brain.mjs" hook pre-commit

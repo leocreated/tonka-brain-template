@@ -1,0 +1,8 @@
+# Local, per-device state for TONKA (setup drafts, visibility record, update
+# receipts and backups). Never commit it.
+.brain/
+
+node_modules/
+.DS_Store
+Thumbs.db
+*.tmp

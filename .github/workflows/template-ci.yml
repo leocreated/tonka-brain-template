@@ -1,0 +1,29 @@
+# CI for the public TONKA BRAIN TEMPLATE repository itself.
+# The job is skipped in private repositories (your personal brain), so a
+# brain created from this template does not spend Actions minutes on it.
+# For a personal brain check, see system/integrations/brain-check.yml.
+name: template-ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    if: ${{ github.event.repository.private != true }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        node: [22, 24]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Verify (tests, strict check, manifest, release check)
+        run: npm run verify

@@ -1,0 +1,23 @@
+# Optional CI check for a personal brain. Copy to .github/workflows/brain-check.yml
+# only if you want it. Runs on push and pull request; never on a schedule.
+name: brain-check
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Records and index
+        run: node system/bin/brain.mjs check
+      - name: Secret-shape sweep of tracked files (heuristic)
+        run: node system/bin/brain.mjs guard --all

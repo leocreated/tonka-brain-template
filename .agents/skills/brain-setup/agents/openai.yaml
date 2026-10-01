@@ -1,0 +1,7 @@
+interface:
+  display_name: "Brain setup"
+  short_description: "Set up, resume or join this TONKA brain"
+  default_prompt: "Set up my brain by following system/setup/GUIDE.md."
+
+policy:
+  allow_implicit_invocation: false

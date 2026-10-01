@@ -1,0 +1,344 @@
+{
+  "schema": 1,
+  "name": "tonka-brain-template",
+  "version": "1.0.0",
+  "hash": "sha256 of file bytes, CRLF normalized to LF for text files",
+  "files": [
+    {
+      "path": ".agents/skills/brain-setup/SKILL.md",
+      "sha256": "82022cbfff97cb9e2ef4f57af2f3c8b6b3d10e0dcd141351f87f2e7d1e411e27"
+    },
+    {
+      "path": ".agents/skills/brain-setup/agents/openai.yaml",
+      "sha256": "db7fbe31683520478629712d462d2400ca243aed43a2c002837fee7bf5020641"
+    },
+    {
+      "path": ".claude/skills/brain-setup/SKILL.md",
+      "sha256": "2ec472a73e4f2e9ee08256e70636dd93e4eedc1f4c593d63d4adc5f6e1c3ffac"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "9d28610b9e1315337d96011acec425305822d2064a2d922630bc28c294b662c6"
+    },
+    {
+      "path": ".github/workflows/template-ci.yml",
+      "sha256": "129d1c7c34a22c55e397daa2de3cf0f797366a94a43f31e4d21895058264f0f7"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "b8e672336b42534961e8fe37b6401e891712534506db39dc2d1bd6b750acae22"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "e7a821d48ee8d99a942b38e264825bbee19954b1659b85cac2a6f8f574dd295d"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "9645f8b2003c356b89ad552c20fff433571506f658a37d292f62d299fda618bd"
+    },
+    {
+      "path": "MAP.md",
+      "sha256": "71432be513bfdefe0284a806289e6a7317556ff4e27a25d194652964f59f8da2"
+    },
+    {
+      "path": "README.md",
+      "sha256": "829408ff98e31e9b224799d9f65998ebf42b6f4489e7e03c5a40fbbb2a1fd51d"
+    },
+    {
+      "path": "archives/README.md",
+      "sha256": "7d5e26a8e8f790ee8bd4a7e8b7e27f28d593c9cd9a73d7bbfee7fcbe254491cc"
+    },
+    {
+      "path": "context/README.md",
+      "sha256": "473bb80c3dc4aa2cfecaec0875c7fb4fd663ffbd7341e202898e11222ac4e44c"
+    },
+    {
+      "path": "decisions/README.md",
+      "sha256": "707ce87d33f502c4600286d530001ae67b65b231b404dd8602be0c5d20fcd9e3"
+    },
+    {
+      "path": "infra/README.md",
+      "sha256": "9658b44eb9b4396428d956dd4f8631d0750d1695b378947f9515a23ff858ca2f"
+    },
+    {
+      "path": "lessons/README.md",
+      "sha256": "fb4de074ec3baea8d8fd0e657d226c09f088752ea495d989fb47f1aa944661f0"
+    },
+    {
+      "path": "notes/README.md",
+      "sha256": "cb75b3518acdf4764551be510694ae586e279b5431f4eaf9d358db4647b3453d"
+    },
+    {
+      "path": "package.json",
+      "sha256": "4e8d0f01f9f8b85881c76361fd4a8a8d4234626b13cb77aff0cda6eb07dd5f00"
+    },
+    {
+      "path": "papercuts/README.md",
+      "sha256": "beb2db6c6f4db17973968ac721014d156d8ec478fbcc2f1fdbe738803f736e35"
+    },
+    {
+      "path": "people/README.md",
+      "sha256": "bdeecbd0b303241365286c4df38edd8ba6bb75e7249a6355f6516d3d727e5081"
+    },
+    {
+      "path": "projects/README.md",
+      "sha256": "a836d12d760707fa33868f82d5eac73e73b8b2dc4a890b6be53c922fb854e99a"
+    },
+    {
+      "path": "references/README.md",
+      "sha256": "9a0ccd92e94de386bc158de8382dbd18ce59c366d284a92d93fe510df2cf202b"
+    },
+    {
+      "path": "system/README.md",
+      "sha256": "095970f8ceb27a8c81d84c7dbb17c3656dbad76189d1db03e32c2c2dd058965f"
+    },
+    {
+      "path": "system/bin/brain.mjs",
+      "sha256": "2a33776efe6135595697c18338ae128fbe1c6443d94f0946846e7a49031bf2a5"
+    },
+    {
+      "path": "system/docs/daily-habits.md",
+      "sha256": "054dd7c294b71bc55941756b548088116a4d1b57a286a1633efba91b57dc3782"
+    },
+    {
+      "path": "system/docs/hooks.md",
+      "sha256": "6d725681e1a24ebcd6f66a425552205c4da91b97a928931c9c491cd2cf92051a"
+    },
+    {
+      "path": "system/docs/orca-workflow.md",
+      "sha256": "4f24b9b2913a08cdc72b25ddd544f75ab701e242f3dd8f7fd86c035a367fba30"
+    },
+    {
+      "path": "system/docs/ownership.md",
+      "sha256": "03d8ef9e0ac3b8bedb7e212f408c2b77f9df03e5dfd069fded1f92be53c989fa"
+    },
+    {
+      "path": "system/docs/privacy.md",
+      "sha256": "56635d3e97ca087ba5de05a49547c8cca560939784f7fb1c36a4d0d6f8dd189e"
+    },
+    {
+      "path": "system/docs/record-format.md",
+      "sha256": "c7a3a6562d87552e99ba9d7788774fde93a5e397046a416bfac3dac60f2a8979"
+    },
+    {
+      "path": "system/docs/releasing.md",
+      "sha256": "e9424f3906b7077d72cade02915202e2c431ba7a03b10993488787045c4a4006"
+    },
+    {
+      "path": "system/docs/skills.md",
+      "sha256": "1d8f39895faa350d5433da3d97f7473936472d469560c8f351a75b8bd0a411bb"
+    },
+    {
+      "path": "system/docs/updates.md",
+      "sha256": "1cc094c339e63f61af7315f8b5d89eb209aad075389c605216751ea9afb30530"
+    },
+    {
+      "path": "system/examples/README.md",
+      "sha256": "e4c8c3c37b98bfa5231b8793102569721ad44a04e0fafcd5e4e69ea2eafb7297"
+    },
+    {
+      "path": "system/examples/context/profile.md",
+      "sha256": "4c2d9a062be2da176275707e90544ff2807ed39f130a3d6b871476d0b3bf5ac8"
+    },
+    {
+      "path": "system/examples/decisions/2026-03-14-weekly-review-friday.md",
+      "sha256": "b447a1f075a655a229cd1e8fad173eae38b97e14ca989733827eb6eee0b87ce9"
+    },
+    {
+      "path": "system/examples/lessons/2026-04-02-write-the-rule-first.md",
+      "sha256": "d0a7792da3ac0ffc0f9ffd198bdba83268a07f7b1abfe68c2bdecc6ace05f309"
+    },
+    {
+      "path": "system/examples/papercuts/2026-05-20-index-forgotten.md",
+      "sha256": "97f57a2c72bf43825c25b2502038ec75904c43d26cdd259457aac635ee12156c"
+    },
+    {
+      "path": "system/examples/people/juniper-vale.md",
+      "sha256": "e9bd2f8ff8d24d6d52a6c58b0bf376e2eafdb1bac9cacc2303c960751882c4ee"
+    },
+    {
+      "path": "system/examples/projects/lantern-garden.md",
+      "sha256": "f328c3398dd15a7d2e4bbed14a4f8280219397d968a919b10606e731d9007bf6"
+    },
+    {
+      "path": "system/hooks/pre-commit",
+      "sha256": "ff85feec54171273e650654ec40646e574559387ad2941f660fd64856d528446"
+    },
+    {
+      "path": "system/integrations/brain-check.yml",
+      "sha256": "50906977c01d7b83af52eadae7727b85e0ba1b014fb01d4d318d0fc3e4d7bba8"
+    },
+    {
+      "path": "system/lib/authoring.mjs",
+      "sha256": "79e8c13e352969cdccc81a7f7c6c5c401a036eeaefd9bd9decb9669cdad2da94"
+    },
+    {
+      "path": "system/lib/doctor.mjs",
+      "sha256": "de011ebcc212dfa08e4ac907f74899a69674a32327109f2a16f9a44d94156140"
+    },
+    {
+      "path": "system/lib/frontmatter.mjs",
+      "sha256": "523a2204e004dd75b57b1b0608fd5a7f6a07c34286096a4cb86e8580cde25e1d"
+    },
+    {
+      "path": "system/lib/git.mjs",
+      "sha256": "d48e3d531f2497aba8b190b018e615a4d05e8b9bfd0d2296afe254248e83030c"
+    },
+    {
+      "path": "system/lib/guard.mjs",
+      "sha256": "4ad107895932f15d6f9269d9c3d7b104a8d7efb1e06b52d0919e68e9bf4ccdb7"
+    },
+    {
+      "path": "system/lib/hooks.mjs",
+      "sha256": "4ba3f4956296032c2258bf71abce19cd9cf12804463a14b3d8273e991cfaa5d6"
+    },
+    {
+      "path": "system/lib/indexer.mjs",
+      "sha256": "3dd719d68a5fea998088220a1f427eb86c68f86e61d517fd3f92ad62f0583885"
+    },
+    {
+      "path": "system/lib/manifest.mjs",
+      "sha256": "c011df583eeeed6b4fcee0276b39edd8c846d390c1317da344068376da4fc542"
+    },
+    {
+      "path": "system/lib/records.mjs",
+      "sha256": "782054e383db72fecc62620a9b98355dbd4dc14a6f5ad4347839343a26431ff2"
+    },
+    {
+      "path": "system/lib/release.mjs",
+      "sha256": "3d3776718562882f06f67b0fe9dfd125967a395c2ef26520a81c1761cb1fc493"
+    },
+    {
+      "path": "system/lib/secrets.mjs",
+      "sha256": "9ffe47b9723853ada456ecb5f5975b7278f01c2597bfcc6970512dfa911a9f03"
+    },
+    {
+      "path": "system/lib/setup.mjs",
+      "sha256": "389447aa0ff40ffdbdafdd854c37f250d2991f31ff07dccfed7de0ed9fbc3d36"
+    },
+    {
+      "path": "system/lib/update.mjs",
+      "sha256": "1255abed0415823b8fbeb79dd8141d2d6666d8dba3b5f162e8b35c2e2961a5c8"
+    },
+    {
+      "path": "system/lib/util.mjs",
+      "sha256": "866719c9be8882679413462f85ead084123fa043d2afd9c21ef749fe7a3383ef"
+    },
+    {
+      "path": "system/lib/visibility.mjs",
+      "sha256": "5c87eb267b7c1fee629cb298dccae3a918204506e4a2c12dfd7d86fa30dafa88"
+    },
+    {
+      "path": "system/setup/GUIDE.md",
+      "sha256": "f13531cd62ecc6bb254ac31f2d7916b2f49454dd52a746f59ed1af547ea8112d"
+    },
+    {
+      "path": "system/setup/integrations.md",
+      "sha256": "b96a0627d1c310294a8d3d866ec1e3e9479b55c5dea1e5013f6902429cbb9043"
+    },
+    {
+      "path": "system/setup/interview.md",
+      "sha256": "fdb23a93e81c56f5b4b98ad6508a0c5a9ee81646804b32498f4ad4205b1aa944"
+    },
+    {
+      "path": "system/setup/second-device.md",
+      "sha256": "2dbbbf0c30096e6792a72b7417541612bfa71a39e6897b34bb9a6f681cba44d3"
+    },
+    {
+      "path": "system/templates/README.md",
+      "sha256": "bc35fce0989e038aa2e63c025c05d84b9a332187afa8b1d6ac4e284e49020437"
+    },
+    {
+      "path": "system/templates/context.md",
+      "sha256": "7a74470ae927d3f80e74e008bf823abf8842171c2c2c888c4434b76eb3091f4b"
+    },
+    {
+      "path": "system/templates/decision.md",
+      "sha256": "4d0c312fc6aaabcf06f43498a7337347d3ad177c08422a9b1a3c0ec32a693e30"
+    },
+    {
+      "path": "system/templates/infra.md",
+      "sha256": "59b436a3c09fed68265757a674c3bec3b9302556ae389fed5bcfbd69813ed5b4"
+    },
+    {
+      "path": "system/templates/lesson.md",
+      "sha256": "826d959d8192c01a667d493fcf0685afc171f6be025bcae479692ad4ad7f3f6f"
+    },
+    {
+      "path": "system/templates/note.md",
+      "sha256": "19054c78e7bed7494a13e5068f04a2f090669f501269c94077c03f466c1479bb"
+    },
+    {
+      "path": "system/templates/papercut.md",
+      "sha256": "239b76ef1721059752ff07066cb456afc441e6765f936058eadb514b127b8ff5"
+    },
+    {
+      "path": "system/templates/person.md",
+      "sha256": "a849ba1ab255a9d14356873b3a03f1b202c56e048b1fbcba9b04ddc6b25021a5"
+    },
+    {
+      "path": "system/templates/project.md",
+      "sha256": "73ad41a28db8963659e6ab2bcb3b952d3167aaf5a7ebe46ab8595c2457ca671d"
+    },
+    {
+      "path": "system/templates/reference.md",
+      "sha256": "9fcc8c648c50d1fc977984668a33037b4669243c7fd2a500e85494d4488d5422"
+    },
+    {
+      "path": "system/tests/adapters.test.mjs",
+      "sha256": "4fb3ad8137ebeefcd43e4b1737a5cf40009a8c572c8fc798e05cdb5e237e53ad"
+    },
+    {
+      "path": "system/tests/e2e.test.mjs",
+      "sha256": "a1affb16fe5943eeded2b1a039254f9757fad659891a4759515dbeac3b6d9684"
+    },
+    {
+      "path": "system/tests/frontmatter.test.mjs",
+      "sha256": "ad4e98587234c00efd839d35058fbb394ae3ab9f87cfede36d3d7569644ac2e6"
+    },
+    {
+      "path": "system/tests/guard.test.mjs",
+      "sha256": "52df0e2714d57f969aad7aca88bcdf99399a8264f7c43f6facea763135f4c546"
+    },
+    {
+      "path": "system/tests/helpers.mjs",
+      "sha256": "6976d39bb8cbae7e06d9f3150e30edb78254647564b468754e5dc3d14b26127c"
+    },
+    {
+      "path": "system/tests/hooks.test.mjs",
+      "sha256": "ff92333e00de61efc556e168f17a5209c83e5015d2688420f0659b5c4ce27de1"
+    },
+    {
+      "path": "system/tests/index.test.mjs",
+      "sha256": "b0f21ecb386c70fa4d8d90a2833b8d6d7143e6a45ce1c1ab0122696d52e07dbd"
+    },
+    {
+      "path": "system/tests/release.test.mjs",
+      "sha256": "ecbb497487df691950b6092be2fe31fc2ec1a6ec00c92c89591670980f9729e3"
+    },
+    {
+      "path": "system/tests/revocation.test.mjs",
+      "sha256": "61a99705cdcbfe92fabbe72b48ed8436bc015b71a5d3326ecf86ff8b01a3a337"
+    },
+    {
+      "path": "system/tests/run.mjs",
+      "sha256": "d9bc721c9ef81a19a3047ead32997346a0a5ce413e0dd9046abf91095dc4a88d"
+    },
+    {
+      "path": "system/tests/setup.test.mjs",
+      "sha256": "9c4f87899dacb917e942aa78fee67a2479656187a16a7c005423138975098403"
+    },
+    {
+      "path": "system/tests/update.test.mjs",
+      "sha256": "d90cef017c4c1dceb7c7c5f7854e65137e014589708a597c022690f961756222"
+    },
+    {
+      "path": "system/tests/visibility.test.mjs",
+      "sha256": "279936f18fe827192e7e44b45a47f024ed3bfe83e5948752e2e6d83e7ae48cf0"
+    }
+  ]
+}

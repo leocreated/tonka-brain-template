@@ -1,0 +1,18 @@
+{
+  "name": "tonka-brain-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TONKA BRAIN TEMPLATE: a private, agent-readable personal brain repository for Claude Code, Codex and other coding agents.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node system/tests/run.mjs",
+    "check": "node system/bin/brain.mjs check",
+    "doctor": "node system/bin/brain.mjs doctor",
+    "index": "node system/bin/brain.mjs index",
+    "verify": "node system/tests/run.mjs && node system/bin/brain.mjs check --strict && node system/bin/brain.mjs manifest --check --strict && node system/bin/brain.mjs release-check"
+  }
+}
